@@ -1,0 +1,17 @@
+{
+  "name": "modulo2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nunjucks": "^3.1.7"
+  }
+}
