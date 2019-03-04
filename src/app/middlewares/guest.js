@@ -1,6 +1,6 @@
-module.exports = (req, res, nex) => {
+module.exports = (req, res, next) => {
   if (req.session && !req.session.user) {
-    return onErrorResumeNext();
+    return next();
   }
   return res.redirect("/app/dashboard");
 };
